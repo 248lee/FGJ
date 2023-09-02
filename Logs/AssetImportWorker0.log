@@ -1,5 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
+<<<<<<< HEAD
 OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'zh' Physical Memory: 12093 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
@@ -1200,3 +1201,23 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+=======
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'zh' Physical Memory: 12183 MB
+received signal from system: SIGSEGV
+Obtained 14 stack frames
+RtlLookupFunctionEntry returned NULL function. Aborting stack walk.
+0x00007ff650d398ad (Unity) StackWalker::GetCurrentCallstack
+0x00007ff650d40469 (Unity) StackWalker::ShowCallstack
+0x00007ff651cc4883 (Unity) GetStacktrace
+0x00007ff650d3f4a6 (Unity) winutils::PrintStackTrace
+0x00007ff650d38edc (Unity) winutils::CrashHandler::DefaultSignalHandler
+0x00007ff6530da5ae (Unity) seh_filter_exe
+0x00007ff65319b208 (Unity) `__scrt_common_main_seh'::`1'::filt$0
+0x00007ff6530a6ee0 (Unity) _C_specific_handler
+0x00007ff8648523df (ntdll) _chkstk
+0x00007ff8648014b4 (ntdll) RtlRaiseException
+0x00007ff864850eee (ntdll) KiUserExceptionDispatcher
+0x00007ff65208f274 (Unity) WorkerLicense::HasEntitlement
+<Missing stacktrace information>
+
+>>>>>>> 30affb576a61d2091b8bbfe9107ab93489f1c370
